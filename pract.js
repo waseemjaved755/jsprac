@@ -1,9 +1,3 @@
-function ()
-{
-    console.log("Waseem");
-}
-a();
-
 const Hello = (a , b) =>
 {
     return a+b;
@@ -22,3 +16,26 @@ function Login(username, pass){
     console.log(`${username}, Login Successfully`);
 }
 Login('John');
+
+const login = (username) =>
+{
+    console.log(`${username}, Login Successfully`);
+}
+login('waseem');
+
+//immediatetly invoked function expression
+
+(function ()
+{
+    console.log("Immediate invoked");
+
+}) ();
+
+//Arrow 
+
+const Log=() => {
+    console.log("Login by Arrow");
+}
+Log();
+
+//Call Back
