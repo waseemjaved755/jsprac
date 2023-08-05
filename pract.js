@@ -1,4 +1,4 @@
-function a()
+function ()
 {
     console.log("Waseem");
 }
@@ -15,3 +15,10 @@ const A =( a,b) => {
   return a+b
 }
 console.log(A(3,4));
+
+function Login(username, pass){
+
+
+    console.log(`${username}, Login Successfully`);
+}
+Login('John');
