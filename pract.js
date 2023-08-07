@@ -39,3 +39,15 @@ const Log=() => {
 Log();
 
 //Call Back
+
+function sum (num1 , num2, A)
+{
+      A();
+      console.log(num1 + num2);
+}
+
+sum(2,3, fallB);
+function fallB()
+{
+    console.log("Sum is this : ");
+}
